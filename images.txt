@@ -4,7 +4,10 @@ bitnami/postgresql-repmgr
 --platform=linux/amd64 bitnami/pgpool
 --platform=linux/amd64 bitnami/prometheus
 --platform=linux/amd64 bitnami/grafana
---platform=linux/arm64 postgres
-
+--platform=linux/amd64 alertmanager
+--platform=linux/amd64 cadvisor
+--platform=linux/amd64 node-exporter
+--platform=linux/amd64 cadvisor
 #支持指定架构
---platform=linux/arm64 xiaoyaliu/alist
+# --platform=linux/arm64 xiaoyaliu/alist
+--platform=linux/arm64 postgres

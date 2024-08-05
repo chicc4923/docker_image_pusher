@@ -8,6 +8,7 @@ nginx
 #--platform=linux/amd64 bitnami/cadvisor
 #--platform=linux/amd64 bitnami/node-exporter
 --platform=linux/amd64 postgres
+--platform=linux/amd64 dperson/samba
 #支持指定架构
 # --platform=linux/arm64 xiaoyaliu/alist
 #--platform=linux/arm64 postgres
